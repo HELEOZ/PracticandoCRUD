@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>PizzaHeleoz3769</display-name>
+  <welcome-file-list>
+    <welcome-file>login.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>formfactura</display-name>
+    <servlet-name>formfactura</servlet-name>
+    <servlet-class>factura.formfactura</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>formfactura</servlet-name>
+    <url-pattern>/formfactura</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Facturacion</display-name>
+    <servlet-name>Facturacion</servlet-name>
+    <servlet-class>factura.Facturacion</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Facturacion</servlet-name>
+    <url-pattern>/Facturacion</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DetalleProducto</display-name>
+    <servlet-name>DetalleProducto</servlet-name>
+    <servlet-class>factura.DetalleProducto</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DetalleProducto</servlet-name>
+    <url-pattern>/DetalleProducto</url-pattern>
+  </servlet-mapping>
+</web-app>
