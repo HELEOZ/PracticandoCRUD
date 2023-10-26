@@ -11,6 +11,7 @@ public class Usuario {
 	private int intentos;
 	
 	private String quitarlo;
+	//quitenmeeee
 	
 	public String getUsuario() {
 		return usuario;

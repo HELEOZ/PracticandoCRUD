@@ -1,0 +1,25 @@
+[33mcommit 47be49048d88c4e74b37bea4808a841b1e4d6dfd[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: HELEOZ <leonardojosezavala.2@outlook.com>
+Date:   Thu Oct 26 01:29:50 2023 -0600
+
+    quitando linea
+
+[33mcommit de653d60c393a2549bc5cfe87a8be2ba871fc451[m
+Author: HELEOZ <leonardojosezavala.2@outlook.com>
+Date:   Thu Oct 26 01:09:46 2023 -0600
+
+    Revert "Prueba de revertir linea"
+    
+    This reverts commit 30330689dc0045b7f911e1d46135ed73904958cd.
+
+[33mcommit 30330689dc0045b7f911e1d46135ed73904958cd[m
+Author: HELEOZ <leonardojosezavala.2@outlook.com>
+Date:   Thu Oct 26 01:07:05 2023 -0600
+
+    Prueba de revertir linea
+
+[33mcommit 9d861abbbe5b292d0ed59f3d6568eaba273e2143[m
+Author: HELEOZ <leonardojosezavala.2@outlook.com>
+Date:   Thu Oct 26 00:49:41 2023 -0600
+
+    PracticandoCRUD
