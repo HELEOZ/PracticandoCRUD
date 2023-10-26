@@ -10,6 +10,9 @@ public class Usuario {
 	private int estatus;
 	private int intentos;
 	
+	private int prueba;//linea para quitar
+	//**
+	
 	
 	public String getUsuario() {
 		return usuario;
